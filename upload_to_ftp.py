@@ -24,4 +24,4 @@ with open(filename, 'rb') as file:
 # 退出 FTP 服务器
 ftp.quit()
 
-print(f'File {filename} uploaded successfully to /123456')
+print(f'File {filename} uploaded successfully to /main')
