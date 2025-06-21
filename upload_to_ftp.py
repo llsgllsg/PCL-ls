@@ -13,7 +13,7 @@ ftp.connect(ftp_server, ftp_port)
 ftp.login(user=ftp_user, passwd=ftp_pass)
 
 # 切换到目标文件夹
-ftp.cwd('/123456')
+ftp.cwd('/main')
 
 # 要上传的文件路径和名称
 filename = 'main.xaml'
