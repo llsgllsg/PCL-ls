@@ -1,150 +1,166 @@
 import requests
 import os
 
-# API接口地址
-url = "https://api.leafone.cn/api/lishi?type=rand"
+# 配置项
+API_URL = "https://api.niany.cn/v2/today_in_history"
+FILE_PATH = "main.xaml"
+# 兜底内容（API失败时使用）
+DEFAULT_HISTORY_CONTENT = '''<local:MyCard Title="暂无历史数据" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="暂时无法获取历史上的今天数据，请检查网络或API是否可用。" />
+    </StackPanel>
+</local:MyCard>'''
 
-try:
-    # 发送GET请求
-    response = requests.get(url)
+# 欢迎卡片（单独抽离，放到最顶部）
+WELCOME_CONTENT = '''<local:MyCard Margin="0,-6,0,12" Title="欢迎"> <!--下面不是卡片，所以不用0,0,0,12-->
+     <StackPanel Margin="24,35,24,15">
+          <TextBlock HorizontalAlignment="Center" Margin="0,0,0,0"
+               Foreground="{DynamicResource ColorBrush2}" FontSize="20"
+               Text="欢迎使用历史上的今天主页!" />
+          <Calendar HorizontalAlignment="Center" Margin="0,12,0,10" />
+          <TextBlock Margin="5,0,5,12" TextWrapping="Wrap" HorizontalAlignment="Center"
+               Foreground="{DynamicResource ColorBrush1}" Text="{cave}" />
+     </StackPanel>
+</local:MyCard> 
 
-    # 检查请求是否成功
-    if response.status_code == 200:
-        # 解析返回的JSON数据
-        data = response.json()
-        print("API返回的数据:", data)  # 打印API返回的数据
+'''
 
-        # 获取必要的信息
-        title = data.get("data", {}).get("title", "无标题信息")
-        type_event = data.get("data", {}).get("type", "无类型信息")
-        desc_text = data.get("data", {}).get("desc", "无描述信息")
+# 其他固定内容（功能按钮、版权信息等）
+FIXED_CONTENT = '''<local:MyCard Margin="0,0,0,8">
+     <StackPanel Margin="24,6,24,12">
+          <Grid>
+               <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+               </Grid.ColumnDefinitions>
+               <local:MyIconTextButton Margin="0,5,0,6" Height="35" HorizontalAlignment="Center"
+                    Text="作者网站" EventType="打开网页" Grid.Column="0"
+                    EventData="https://llsgllsg.rth1.xyz"
+                    LogoScale="0.8" ColorType="Highlight"
+                    Logo="M13.5,4A1.5,1.5 0 0,0 12,5.5A1.5,1.5 0 0,0 13.5,7A1.5,1.5 0 0,0 15,5.5A1.5,1.5 0 0,0 13.5,4M13.14,8.77C11.95,8.87 8.7,11.46 8.7,11.46C8.5,11.61 8.56,11.6 8.72,11.88C8.88,12.15 8.86,12.17 9.05,12.04C9.25,11.91 9.58,11.7 10.13,11.36C12.25,10 10.47,13.14 9.56,18.43C9.2,21.05 11.56,19.7 12.17,19.3C12.77,18.91 14.38,17.8 14.54,17.69C14.76,17.54 14.6,17.42 14.43,17.17C14.31,17 14.19,17.12 14.19,17.12C13.54,17.55 12.35,18.45 12.19,17.88C12,17.31 13.22,13.4 13.89,10.71C14,10.07 14.3,8.67 13.14,8.77Z" />
+               <local:MyIconTextButton Margin="0,5,0,6" Height="35" HorizontalAlignment="Center"
+                    Text="刷新主页" EventType="刷新主页" Grid.Column="1"
+                    LogoScale="0.8" ColorType="Highlight"
+                    Logo="M256.455,8C322.724,8.119,382.892,34.233,427.314,76.685L463.029,40.97C478.149,25.851,504,36.559,504,57.941L504,192C504,205.255,493.255,216,480,216L345.941,216C324.559,216,313.851,190.149,328.97,175.029L370.72,133.279C339.856,104.38 299.919,88.372 257.49,88.006 165.092,87.208 87.207,161.983 88.0059999999999,257.448 88.764,348.009 162.184,424 256,424 297.127,424 335.997,409.322 366.629,382.444 371.372,378.283 378.535,378.536 382.997,382.997L422.659,422.659C427.531,427.531 427.29,435.474 422.177,440.092 378.202,479.813 319.926,504 256,504 119.034,504 8.001,392.967 8,256.002 7.999,119.193 119.646,7.755 256.455,8z" />
+          </Grid>
+          <local:MyListItem Margin="-2,0,0,0"
+               Logo="pack://application:,,,/images/blocks/GoldBlock.png" Title="今日人品"
+               Info="试试手气！" EventType="今日人品" Type="Clickable" />
+          <local:MyListItem Margin="-2,0,0,0"
+               Logo="pack://application:,,,/images/blocks/Grass.png" Title="启动基岩版"
+               Info="以 URL Scheme 的方式启动电脑上的 MC 基岩版。" EventType="打开网页" EventData="minecraft://"
+               Type="Clickable" />
+          <local:MyListItem Margin="-2,0,0,0"
+               Logo="pack://application:,,,/images/blocks/CommandBlock.png" Title="网页捷径"
+               Type="Clickable"
+               Info="打开网页捷径页面" EventType="打开帮助"
+               EventData="https://cn-sy1.rains3.com/123456/jj.json" />
+<!--十分感谢MFn233的简单主页的部分代码此主页使用了MFn233简单主页的代码更新历史事件使用了一个不知名API和github actions自动部署-->
+<local:MyListItem Margin="-2,0,0,0" Info="llsgllsg"
+ Logo="pack://application:,,,/images/Blocks/Fabric.png" Title="关于作者"
+EventType="弹出窗口"
+ EventData="关于作者|我是llsgllsg，啥都会一丢丢的程序员，该主页部分使用了MFn233的代码，并在GitHub上开源。欢迎你前往仓库为我的项目提issue
+©llsgllsg 2024"
+ Type="Clickable" />
+</StackPanel>
+</local:MyCard>
+<StackPanel>
+  <Border Background="#A0FFFFFF" Height="200" Margin="-25,10,-25,-20"
+    BorderThickness="0,2,0,0" BorderBrush="#954024">
+    <StackPanel Margin="40,15,0,20">
+      <TextBlock Text="PCL2历史上的今天主页 Next" Foreground="#954024" FontSize="16" Margin="0,5,5,5" />
+      <TextBlock> Originally By: llsgllsg<LineBreak />
+        <LineBreak /> 订阅地址: <Underline>
+          <local:MyTextButton Margin="0,0,0,-3" EventType="复制文本"
+            Text="点击复制订阅地址"
+            EventData="https://cn-sy1.rains3.com/123456/main.xaml" ToolTip="点击复制到剪贴板" />
+          </Underline> <LineBreak />
+          GitHub仓库: <Underline>
+            <local:MyTextButton Margin="0,0,0,-3" EventType="打开网页"
+              Text="https://github.com/llsgllsg/PCLls"
+              EventData="https://github.com/llsgllsg/PCLls"
+              ToolTip="点击打开GitHub" />
+          </Underline> <LineBreak />
+          Gitee仓库！不是最新: <Underline>
+            <local:MyTextButton Margin="0,0,0,-3" EventType="打开网页"
+              Text="https://gitee.com/llsgllsg/PCLls"
+              EventData="https://gitee.com/llsgllsg/PCLls"
+              ToolTip="点击打开Gitee" />
+          </Underline> <LineBreak />
+          <LineBreak />
+          无特殊声明本主页采用 <Underline>
+            <local:MyTextButton Margin="0,0,0,-2" Text="CC BY-NC-SA 4.0" EventType="打开网页"
+              EventData="https://creativecommons.org/licenses/by-nc-sa/4.0/ " />
+          </Underline>
+          授权。 <LineBreak />
+         </TextBlock>
+     </StackPanel>
+   </Border>
+</StackPanel>
+'''
 
-        # 生成或修改main.xaml文件的路径
-        file_path = "main.xaml"
+def main():
+    # 初始化历史内容为兜底内容
+    history_content = DEFAULT_HISTORY_CONTENT
+    
+    # 1. 尝试请求API
+    try:
+        print("=== 开始请求API ===")
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+        response = requests.get(API_URL, headers=headers, timeout=15)
         
-        if not os.path.exists(file_path):
-            # 如果文件不存在，创建文件并写入基本结构
-            with open(file_path, "w", encoding='utf-8') as f:
-                f.write(f'<local:MyCard Title="事件：{title}，类型：{type_event}" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">\n')
-                f.write('\t<StackPanel Margin="25,40,23,15">\n')
-                f.write(f'\t\t<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="{desc_text}" />\n')
-                f.write('\t</StackPanel>\n')
-                f.write('</local:MyCard>\n')
-            print("文件 main.xaml 已创建并保存内容")
-        else:
-            # 如果文件存在，读取文件内容
-            with open(file_path, "r", encoding='utf-8') as f:
-                content = f.read()
-
-            print("旧内容:\n", content)  # 打印旧内容
+        if response.status_code == 200:
+            data = response.json()
+            history_items = data.get("data", {}).get("items", [])
             
-            # 建立 expected 新内容字符串
-            new_content = f'<local:MyCard Title="事件：{title}，类型：{type_event}" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">\n' \
-                          f'\t<StackPanel Margin="25,40,23,15">\n' \
-                          f'\t\t<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="{desc_text}" />\n' \
-                          f'\t</StackPanel>\n' \
-                          f'</local:MyCard>\n'
-
-            print("构建的新内容:\n", new_content)  # 打印新内容
-            
-            # 仅当内容不同的时候才写入新的内容
-            if content != new_content:
-                with open(file_path, "w", encoding='utf-8') as f:
-                    f.write(new_content)
-                print("main.xaml 文件已更新")
+            if history_items:
+                # 构建历史事件卡片
+                history_cards = []
+                for item in history_items:
+                    title = item.get("title", "无标题")
+                    year = item.get("year", "未知年份")
+                    event_type = item.get("event_type", "未知类型")
+                    desc_text = item.get("description", "无描述")
+                    
+                    card = f'''<local:MyCard Title="{year}年 - {title}（类型：{event_type}）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="{desc_text}" />
+    </StackPanel>
+</local:MyCard>'''
+                    history_cards.append(card)
+                history_content = "\n\n".join(history_cards)
+                print(f"✅ API请求成功，获取到 {len(history_items)} 条历史事件")
             else:
-                print("内容没有变化，不进行更新。")
+                print("⚠️ API返回空的历史事件列表，使用兜底内容")
+        else:
+            print(f"⚠️ API请求失败（状态码：{response.status_code}），使用兜底内容")
+    except Exception as e:
+        print(f"⚠️ API请求出错：{str(e)}，使用兜底内容")
+    
+    # 2. 拼接内容（关键调整：欢迎卡片 → 历史事件 → 其他固定内容）
+    full_content = WELCOME_CONTENT + history_content + "\n\n" + FIXED_CONTENT
+    
+    # 3. 写入文件（确保文件必生成）
+    try:
+        # 获取绝对路径，方便你查找
+        abs_file_path = os.path.abspath(FILE_PATH)
+        print(f"\n=== 开始写入文件：{abs_file_path} ===")
+        
+        with open(FILE_PATH, "w", encoding='utf-8') as f:
+            f.write(full_content)
+        
+        # 验证文件是否生成
+        if os.path.exists(FILE_PATH):
+            file_size = os.path.getsize(FILE_PATH)
+            print(f"✅ 文件生成成功！文件大小：{file_size} 字节")
+            print(f"文件位置：{abs_file_path}")
+            print("✅ 内容顺序：欢迎卡片（最顶部）→ 历史事件 → 功能按钮/版权信息")
+        else:
+            print("❌ 文件生成失败！")
+    except Exception as e:
+        print(f"❌ 写入文件出错：{str(e)}")
 
-        # 添加内容
-        with open(file_path, "a", encoding='utf-8') as f:  # 以追加模式打开文件
-            f.write('\n<local:MyCard Margin="0,-6,0,12" Title="欢迎"> <!--下面不是卡片，所以不用0,0,0,12-->\n')
-            f.write('     <StackPanel Margin="24,35,24,15">\n')
-            f.write('          <TextBlock HorizontalAlignment="Center" Margin="0,0,0,0"\n')
-            f.write('               Foreground="{DynamicResource ColorBrush2}" FontSize="20"\n')
-            f.write('               Text="欢迎使用历史上的今天主页!" />\n')
-            f.write('          <Calendar HorizontalAlignment="Center" Margin="0,12,0,10" />\n')
-            f.write('          <TextBlock Margin="5,0,5,12" TextWrapping="Wrap" HorizontalAlignment="Center"\n')
-            f.write('               Foreground="{DynamicResource ColorBrush1}" Text="{cave}" />\n')
-            f.write('     </StackPanel>\n')
-            f.write('</local:MyCard> \n\n')  # 添加结束标记和换行
-
-            # 继续追加其他内容
-            f.write('<local:MyCard Margin="0,0,0,8">\n')
-            f.write('     <StackPanel Margin="24,6,24,12">\n')
-            f.write('          <Grid>\n')
-            f.write('               <Grid.ColumnDefinitions>\n')
-            f.write('                    <ColumnDefinition Width="1*" />\n')
-            f.write('                    <ColumnDefinition Width="1*" />\n')
-            f.write('               </Grid.ColumnDefinitions>\n')
-            f.write('               <local:MyIconTextButton Margin="0,5,0,6" Height="35" HorizontalAlignment="Center"\n')
-            f.write('                    Text="作者网站" EventType="打开网页" Grid.Column="0"\n')
-            f.write('                    EventData="https://llsgllsg.rth1.xyz"\n')
-            f.write('                    LogoScale="0.8" ColorType="Highlight"\n')
-            f.write('                    Logo="M13.5,4A1.5,1.5 0 0,0 12,5.5A1.5,1.5 0 0,0 13.5,7A1.5,1.5 0 0,0 15,5.5A1.5,1.5 0 0,0 13.5,4M13.14,8.77C11.95,8.87 8.7,11.46 8.7,11.46C8.5,11.61 8.56,11.6 8.72,11.88C8.88,12.15 8.86,12.17 9.05,12.04C9.25,11.91 9.58,11.7 10.13,11.36C12.25,10 10.47,13.14 9.56,18.43C9.2,21.05 11.56,19.7 12.17,19.3C12.77,18.91 14.38,17.8 14.54,17.69C14.76,17.54 14.6,17.42 14.43,17.17C14.31,17 14.19,17.12 14.19,17.12C13.54,17.55 12.35,18.45 12.19,17.88C12,17.31 13.22,13.4 13.89,10.71C14,10.07 14.3,8.67 13.14,8.77Z" />\n')
-            f.write('               <local:MyIconTextButton Margin="0,5,0,6" Height="35" HorizontalAlignment="Center"\n')
-            f.write('                    Text="刷新主页" EventType="刷新主页" Grid.Column="1"\n')
-            f.write('                    LogoScale="0.8" ColorType="Highlight"\n')
-            f.write('                    Logo="M256.455,8C322.724,8.119,382.892,34.233,427.314,76.685L463.029,40.97C478.149,25.851,504,36.559,504,57.941L504,192C504,205.255,493.255,216,480,216L345.941,216C324.559,216,313.851,190.149,328.97,175.029L370.72,133.279C339.856,104.38 299.919,88.372 257.49,88.006 165.092,87.208 87.207,161.983 88.0059999999999,257.448 88.764,348.009 162.184,424 256,424 297.127,424 335.997,409.322 366.629,382.444 371.372,378.283 378.535,378.536 382.997,382.997L422.659,422.659C427.531,427.531 427.29,435.474 422.177,440.092 378.202,479.813 319.926,504 256,504 119.034,504 8.001,392.967 8,256.002 7.999,119.193 119.646,7.755 256.455,8z" />\n')
-            f.write('          </Grid>\n')
-            f.write('          <local:MyListItem Margin="-2,0,0,0"\n')
-            f.write('               Logo="pack://application:,,,/images/blocks/GoldBlock.png" Title="今日人品"\n')
-            f.write('               Info="试试手气！" EventType="今日人品" Type="Clickable" />\n')
-            f.write('          <local:MyListItem Margin="-2,0,0,0"\n')
-            f.write('               Logo="pack://application:,,,/images/blocks/Grass.png" Title="启动基岩版"\n')
-            f.write('               Info="以 URL Scheme 的方式启动电脑上的 MC 基岩版。" EventType="打开网页" EventData="minecraft://"\n')
-            f.write('               Type="Clickable" />\n')
-            f.write('          <local:MyListItem Margin="-2,0,0,0"\n')
-            f.write('               Logo="pack://application:,,,/images/blocks/CommandBlock.png" Title="网页捷径"\n')
-            f.write('               Type="Clickable"\n')
-            f.write('               Info="打开网页捷径页面" EventType="打开帮助"\n')
-            f.write('               EventData="https://cn-sy1.rains3.com/123456/jj.json" />\n')
-            f.write('<!--十分感谢MFn233的简单主页的部分代码此主页使用了MFn233简单主页的代码更新历史事件使用了一个不知名API和github actions自动部署-->\n')
-            f.write('<local:MyListItem Margin="-2,0,0,0" Info="llsgllsg"\n')
-            f.write(' Logo="pack://application:,,,/images/Blocks/Fabric.png" Title="关于作者"\n')
-            f.write('EventType="弹出窗口"\n')
-            f.write(' EventData="关于作者|我是llsgllsg，啥都会一丢丢的程序员，该主页部分使用了MFn233的代码，并在GitHub上开源。欢迎你前往仓库为我的项目提issue\n©llsgllsg 2024"\n')
-            f.write(' Type="Clickable" />\n')
-            f.write('</StackPanel>\n')
-            f.write('</local:MyCard>\n')
-            f.write('<StackPanel>\n')
-            f.write('  <Border Background="#A0FFFFFF" Height="200" Margin="-25,10,-25,-20"\n')
-            f.write('    BorderThickness="0,2,0,0" BorderBrush="#954024">\n')
-            f.write('    <StackPanel Margin="40,15,0,20">\n')
-            f.write('      <TextBlock Text="PCL2历史上的今天主页 Next" Foreground="#954024" FontSize="16" Margin="0,5,5,5" />\n')
-            f.write('      <TextBlock> Originally By: llsgllsg<LineBreak />\n')
-            f.write('        <LineBreak /> 订阅地址: <Underline>\n')
-            f.write('          <local:MyTextButton Margin="0,0,0,-3" EventType="复制文本"\n')
-            f.write('            Text="点击复制订阅地址"\n')
-            f.write('            EventData="https://cn-sy1.rains3.com/123456/main.xaml" ToolTip="点击复制到剪贴板" />\n')
-            f.write('          </Underline> <LineBreak />\n')
-            f.write('          GitHub仓库: <Underline>\n')
-            f.write('            <local:MyTextButton Margin="0,0,0,-3" EventType="打开网页"\n')
-            f.write('              Text="https://github.com/llsgllsg/PCLls"\n')
-            f.write('              EventData="https://github.com/llsgllsg/PCLls"\n')
-            f.write('              ToolTip="点击打开GitHub" />\n')
-            f.write('          </Underline> <LineBreak />\n')
-            f.write('          Gitee仓库！不是最新: <Underline>\n')
-            f.write('            <local:MyTextButton Margin="0,0,0,-3" EventType="打开网页"\n')
-            f.write('              Text="https://gitee.com/llsgllsg/PCLls"\n')
-            f.write('              EventData="https://gitee.com/llsgllsg/PCLls"\n')
-            f.write('              ToolTip="点击打开Gitee" />\n')
-            f.write('          </Underline> <LineBreak />\n')
-            f.write('          <LineBreak />\n')
-            f.write('          无特殊声明本主页采用 <Underline>\n')
-            f.write('            <local:MyTextButton Margin="0,0,0,-2" Text="CC BY-NC-SA 4.0" EventType="打开网页"\n')
-            f.write('              EventData="https://creativecommons.org/licenses/by-nc-sa/4.0/ " />\n')
-            f.write('          </Underline>\n')
-            f.write('          授权。 <LineBreak />\n')
-            f.write('         </TextBlock>\n')
-            f.write('     </StackPanel>\n')
-            f.write('   </Border>\n')
-            f.write('</StackPanel>\n')
-            
-            
-        print("附加内容已成功添加到 main.xaml 文件中。")
-
-    else:
-        print("请求失败，状态码：", response.status_code)
-
-except requests.exceptions.RequestException as e:
-    print("请求出错：", e)
+if __name__ == "__main__":
+    main()
