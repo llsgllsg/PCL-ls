@@ -109,7 +109,7 @@
                Logo="pack://application:,,,/images/blocks/CommandBlock.png" Title="网页捷径"
                Type="Clickable"
                Info="打开网页捷径页面" EventType="打开帮助"
-               EventData="https://cn-sy1.rains3.com/123456/jj.json" />
+               EventData="https://mfn233.github.io/PCL-Mainpage/urlshortcut/main.json" />
 <!--十分感谢MFn233的简单主页的部分代码此主页使用了MFn233简单主页的代码更新历史事件使用了一个不知名API和github actions自动部署-->
 <local:MyListItem Margin="-2,0,0,0" Info="llsgllsg"
  Logo="pack://application:,,,/images/Blocks/Fabric.png" Title="关于作者"
