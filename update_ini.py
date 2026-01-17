@@ -59,7 +59,7 @@ if __name__ == "__main__":
 
     # 获取 FTP 相关信息
     ftp_host = 'cn-nb1.rains3.com'
-    ftp_port = 8021
+    ftp_port = 8022
     ftp_user = os.getenv('FTP_USERNAME')
     ftp_password = os.getenv('FTP_PASSWORD')
     
