@@ -1,10 +1,4 @@
-<local:MyCard Title="事件：法国和那瓦尔皇后玛丽·安托瓦内特出生，类型：出生" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
-	<StackPanel Margin="25,40,23,15">
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="玛丽·安托瓦内特（Marie Antoinette 1755年11月2日~1793年10月16日），法国国王路易十六的妻子，原奥地利帝国公主，生于维也纳" />
-	</StackPanel>
-</local:MyCard>
-
-<local:MyCard Margin="0,-6,0,12" Title="欢迎"> <!--下面不是卡片，所以不用0,0,0,12-->
+<local:MyCard Margin="0,-6,0,12" Title="欢迎 勿忘历史，牢记使命"> <!--下面不是卡片，所以不用0,0,0,12-->
      <StackPanel Margin="24,35,24,15">
           <TextBlock HorizontalAlignment="Center" Margin="0,0,0,0"
                Foreground="{DynamicResource ColorBrush2}" FontSize="20"
@@ -14,6 +8,78 @@
                Foreground="{DynamicResource ColorBrush1}" Text="{cave}" />
      </StackPanel>
 </local:MyCard> 
+
+<local:MyCard Title="1535年 - 西班牙殖民者佛朗西斯科·皮萨罗建立利马城（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="利马是1535年1月18日，西班牙殖民者，法兰西斯克·皮泽洛所建的，是秘鲁西班牙文化的重地，著名的天主教建筑包括了16世纪的大教堂，和圣·马可仕全国大学。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="1689年 - 法国启蒙思想家查理·路易·孟德斯鸠出生于波尔多（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="孟德斯鸠（1689年1月18日~1755年2月10日），法国启蒙思想家、法学家。孟德斯鸠不仅是18世纪法国启蒙时代的著名思想家，也是近代欧洲国家比较早的系统研究古代东方社会与法律文化的学者之一。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="1835年 - 俄国音乐家居伊出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="凯撒·安东诺维奇·居伊 （Cesar Antonovich Cui，1835～1918），俄罗斯作曲家，生于立陶宛。1857年毕业于军事技术大学。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="1862年 - 美国第十任总统，辉格党人约翰·泰勒逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="约翰·泰勒（John Tyler，1790年3月29日-1862年1月18日），生于美国弗吉尼亚州，美国第10任总统（1841年4月6日—1845年3月4日在位）。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="1871年 - 德意志帝国成立（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="德意志帝国（德语：Deutsches Kaiserreich；1871年—1918年），位于欧洲中部的二元君主制联邦制国家，又称德意志第二帝国，是霍亨索伦王朝统治的最后一个国家。其正式国号为“德意志国（Deutsches Reich）。这也成为了后来魏玛共和国和纳粹德国的正式国号。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="1902年 - 慈禧太后第一次撤帘露面，公开召见各国驻华使节（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="叶赫那拉氏（1835年11月29日－1908年11月15日），一般根据其徽号简称为“慈禧”“慈禧太后” ，又有“西太后”“老佛爷” 等称呼。中国晚清时期重要政治人物。咸丰帝的妃嫔，同治帝的生母。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="1915年 - 日本公使向袁世凯递交“二十一条”（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="日本帝国主义妄图灭亡中国的秘密条款。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="1936年 - 英国作家罗德亚德·吉普林逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="罗德亚德·吉普林（1865～1936） 英国小说家、诗人。1907年度的诺贝尔文学奖获得者。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="1982年 - 中国民族学家黄现璠逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="黄现璠（1899～1982），中国现代历史学家、民族学家、人类学家和教育家，中国现代民族学奠基人之一。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="1992年 - 邓小平南方视察，发表著名的“南方谈话”（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="邓小平南方谈话发生在1992年1月18日—2月21日。当时已正式告别中央领导岗位的党的第二代领导核心、改革开放的总设计师邓小平，以普通党员的身份，凭着对党和人民伟大事业的深切期待，先后赴武昌、深圳、珠海和上海视察，沿途发表了重要谈话。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="2001年 - 果（金）第三任总统洛朗·德西雷·卡比拉逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="洛朗·德西雷·卡比拉，又译朗·卡比拉（1939年11月27日—2001年1月18日）。 民主刚果第三任总统。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="2005年 - 空中客车A380在法国隆重面世（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="空中客车A380（Airbus A380）是欧洲空中客车公司制造的全球最大的宽体客机。空中客车公司于1988年开始相关的研究工作，并于1990年宣布该项目以向波音747在远程航空客运市场的主导地位发起挑战。空中客车公司于1994年提出了A3XX项目；于2000年12月19日投入107亿美元来启动A380计划。" />
+    </StackPanel>
+</local:MyCard>
 
 <local:MyCard Margin="0,0,0,8">
      <StackPanel Margin="24,6,24,12">
@@ -48,41 +114,9 @@
 <local:MyListItem Margin="-2,0,0,0" Info="llsgllsg"
  Logo="pack://application:,,,/images/Blocks/Fabric.png" Title="关于作者"
 EventType="弹出窗口"
- EventData="关于作者|我是llsgllsg，啥都会一丢丢的程序员，该主页部分使用了MFn233的代码，并在GitHub上开源。欢迎你前往仓库为我的项目提issue
-©llsgllsg 2024"
+ EventData="关于作者|我是llsgllsg，啥都会一丢丢的学生，该主页部分使用了MFn233的代码，并在GitHub上开源。欢迎你前往仓库为我的项目提issue
+©llsgllsg 2026"
  Type="Clickable" />
 </StackPanel>
 </local:MyCard>
-<StackPanel>
-  <Border Background="#A0FFFFFF" Height="200" Margin="-25,10,-25,-20"
-    BorderThickness="0,2,0,0" BorderBrush="#954024">
-    <StackPanel Margin="40,15,0,20">
-      <TextBlock Text="PCL2历史上的今天主页 Next" Foreground="#954024" FontSize="16" Margin="0,5,5,5" />
-      <TextBlock> Originally By: llsgllsg<LineBreak />
-        <LineBreak /> 订阅地址: <Underline>
-          <local:MyTextButton Margin="0,0,0,-3" EventType="复制文本"
-            Text="点击复制订阅地址"
-            EventData="https://cn-sy1.rains3.com/123456/main.xaml" ToolTip="点击复制到剪贴板" />
-          </Underline> <LineBreak />
-          GitHub仓库: <Underline>
-            <local:MyTextButton Margin="0,0,0,-3" EventType="打开网页"
-              Text="https://github.com/llsgllsg/PCLls"
-              EventData="https://github.com/llsgllsg/PCLls"
-              ToolTip="点击打开GitHub" />
-          </Underline> <LineBreak />
-          Gitee仓库！不是最新: <Underline>
-            <local:MyTextButton Margin="0,0,0,-3" EventType="打开网页"
-              Text="https://gitee.com/llsgllsg/PCLls"
-              EventData="https://gitee.com/llsgllsg/PCLls"
-              ToolTip="点击打开Gitee" />
-          </Underline> <LineBreak />
-          <LineBreak />
-          无特殊声明本主页采用 <Underline>
-            <local:MyTextButton Margin="0,0,0,-2" Text="CC BY-NC-SA 4.0" EventType="打开网页"
-              EventData="https://creativecommons.org/licenses/by-nc-sa/4.0/ " />
-          </Underline>
-          授权。 <LineBreak />
-         </TextBlock>
-     </StackPanel>
-   </Border>
-</StackPanel>
+
