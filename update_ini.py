@@ -64,7 +64,7 @@ if __name__ == "__main__":
     ftp_password = os.getenv('FTP_PASSWORD')
     
     # 指定上传的文件夹路径
-    remote_directory = '/123456'
+    remote_directory = '/gf123'
 
     # 上传文件到 FTP
     upload_to_ftp(ftp_host, ftp_port, ftp_user, ftp_password, 'main.xaml.ini', remote_directory)
