@@ -7,12 +7,12 @@ FILE_PATH = "main.xaml"
 # 兜底内容（API失败时使用）
 DEFAULT_HISTORY_CONTENT = '''<local:MyCard Title="暂无历史数据" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="暂时无法获取历史上的今天数据，请检查网络或API是否可用。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="暂时无法获取历史上的今天数据，请去疯狂@作者。" />
     </StackPanel>
 </local:MyCard>'''
 
-# 欢迎卡片（单独抽离，放到最顶部）
-WELCOME_CONTENT = '''<local:MyCard Margin="0,-6,0,12" Title="欢迎"> <!--下面不是卡片，所以不用0,0,0,12-->
+
+WELCOME_CONTENT = '''<local:MyCard Margin="0,-6,0,12" Title="欢迎 勿忘历史，牢记使命"> <!--下面不是卡片，所以不用0,0,0,12-->
      <StackPanel Margin="24,35,24,15">
           <TextBlock HorizontalAlignment="Center" Margin="0,0,0,0"
                Foreground="{DynamicResource ColorBrush2}" FontSize="20"
@@ -25,7 +25,7 @@ WELCOME_CONTENT = '''<local:MyCard Margin="0,-6,0,12" Title="欢迎"> <!--下面
 
 '''
 
-# 其他固定内容（功能按钮、版权信息等）
+
 FIXED_CONTENT = '''<local:MyCard Margin="0,0,0,8">
      <StackPanel Margin="24,6,24,12">
           <Grid>
@@ -59,51 +59,17 @@ FIXED_CONTENT = '''<local:MyCard Margin="0,0,0,8">
 <local:MyListItem Margin="-2,0,0,0" Info="llsgllsg"
  Logo="pack://application:,,,/images/Blocks/Fabric.png" Title="关于作者"
 EventType="弹出窗口"
- EventData="关于作者|我是llsgllsg，啥都会一丢丢的程序员，该主页部分使用了MFn233的代码，并在GitHub上开源。欢迎你前往仓库为我的项目提issue
-©llsgllsg 2024"
+ EventData="关于作者|我是llsgllsg，啥都会一丢丢的学生，该主页部分使用了MFn233的代码，并在GitHub上开源。欢迎你前往仓库为我的项目提issue
+©llsgllsg 2026"
  Type="Clickable" />
 </StackPanel>
 </local:MyCard>
-<StackPanel>
-  <Border Background="#A0FFFFFF" Height="200" Margin="-25,10,-25,-20"
-    BorderThickness="0,2,0,0" BorderBrush="#954024">
-    <StackPanel Margin="40,15,0,20">
-      <TextBlock Text="PCL2历史上的今天主页 Next" Foreground="#954024" FontSize="16" Margin="0,5,5,5" />
-      <TextBlock> Originally By: llsgllsg<LineBreak />
-        <LineBreak /> 订阅地址: <Underline>
-          <local:MyTextButton Margin="0,0,0,-3" EventType="复制文本"
-            Text="点击复制订阅地址"
-            EventData="https://cn-sy1.rains3.com/123456/main.xaml" ToolTip="点击复制到剪贴板" />
-          </Underline> <LineBreak />
-          GitHub仓库: <Underline>
-            <local:MyTextButton Margin="0,0,0,-3" EventType="打开网页"
-              Text="https://github.com/llsgllsg/PCLls"
-              EventData="https://github.com/llsgllsg/PCLls"
-              ToolTip="点击打开GitHub" />
-          </Underline> <LineBreak />
-          Gitee仓库！不是最新: <Underline>
-            <local:MyTextButton Margin="0,0,0,-3" EventType="打开网页"
-              Text="https://gitee.com/llsgllsg/PCLls"
-              EventData="https://gitee.com/llsgllsg/PCLls"
-              ToolTip="点击打开Gitee" />
-          </Underline> <LineBreak />
-          <LineBreak />
-          无特殊声明本主页采用 <Underline>
-            <local:MyTextButton Margin="0,0,0,-2" Text="CC BY-NC-SA 4.0" EventType="打开网页"
-              EventData="https://creativecommons.org/licenses/by-nc-sa/4.0/ " />
-          </Underline>
-          授权。 <LineBreak />
-         </TextBlock>
-     </StackPanel>
-   </Border>
-</StackPanel>
+
 '''
 
 def main():
-    # 初始化历史内容为兜底内容
     history_content = DEFAULT_HISTORY_CONTENT
     
-    # 1. 尝试请求API
     try:
         print("=== 开始请求API ===")
         headers = {
@@ -139,19 +105,15 @@ def main():
     except Exception as e:
         print(f"⚠️ API请求出错：{str(e)}，使用兜底内容")
     
-    # 2. 拼接内容（关键调整：欢迎卡片 → 历史事件 → 其他固定内容）
     full_content = WELCOME_CONTENT + history_content + "\n\n" + FIXED_CONTENT
     
-    # 3. 写入文件（确保文件必生成）
     try:
-        # 获取绝对路径，方便你查找
         abs_file_path = os.path.abspath(FILE_PATH)
         print(f"\n=== 开始写入文件：{abs_file_path} ===")
         
         with open(FILE_PATH, "w", encoding='utf-8') as f:
             f.write(full_content)
         
-        # 验证文件是否生成
         if os.path.exists(FILE_PATH):
             file_size = os.path.getsize(FILE_PATH)
             print(f"✅ 文件生成成功！文件大小：{file_size} 字节")
@@ -164,3 +126,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
