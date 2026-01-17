@@ -40,7 +40,7 @@ jobs:
       # 步骤4：运行Python脚本生成main.xaml
       - name: 运行更新脚本
         run: |
-          python history_ini.py
+          python update_ini.py
           
           # 验证文件是否生成（可选，用于调试）
           ls -l main.xaml  # 查看文件是否存在
