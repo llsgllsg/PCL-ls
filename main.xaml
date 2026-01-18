@@ -9,75 +9,75 @@
      </StackPanel>
 </local:MyCard> 
 
-<local:MyCard Title="1535年 - 西班牙殖民者佛朗西斯科·皮萨罗建立利马城（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1655年 - 中国清代词人纳兰性德出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="利马是1535年1月18日，西班牙殖民者，法兰西斯克·皮泽洛所建的，是秘鲁西班牙文化的重地，著名的天主教建筑包括了16世纪的大教堂，和圣·马可仕全国大学。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="纳兰性德（1655年1月19日—1685年7月1日），叶赫那拉氏，字容若，原名纳兰成德（因避讳太子保成而改名），号楞伽山人，满洲正黄旗人。大学士明珠长子，清朝初年词人。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1689年 - 法国启蒙思想家查理·路易·孟德斯鸠出生于波尔多（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1736年 - 瓦特蒸汽机的发明者瓦特出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="孟德斯鸠（1689年1月18日~1755年2月10日），法国启蒙思想家、法学家。孟德斯鸠不仅是18世纪法国启蒙时代的著名思想家，也是近代欧洲国家比较早的系统研究古代东方社会与法律文化的学者之一。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="詹姆斯·瓦特（James Watt，1736年1月19日 — 1819年8月19日）是英国著名的发明家，是第一次工业革命时的重要人物。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1835年 - 俄国音乐家居伊出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1806年 - 英国军队占领好望角（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="凯撒·安东诺维奇·居伊 （Cesar Antonovich Cui，1835～1918），俄罗斯作曲家，生于立陶宛。1857年毕业于军事技术大学。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="好望角位于南非共和国南部。强劲的西风急流掀起的惊涛骇浪常年不断，这里除风暴为害外，还常常有“杀人浪”出现。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1862年 - 美国第十任总统，辉格党人约翰·泰勒逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1807年 - 美国军事家罗伯特·爱德华·李出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="约翰·泰勒（John Tyler，1790年3月29日-1862年1月18日），生于美国弗吉尼亚州，美国第10任总统（1841年4月6日—1845年3月4日在位）。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="罗伯特·爱德华·李（Robert Edward Lee，1807年1月19日—1870年10月12日），美国军事家，出生于弗吉尼亚。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1871年 - 德意志帝国成立（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1809年 - 美国作家埃德加·爱伦·坡出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="德意志帝国（德语：Deutsches Kaiserreich；1871年—1918年），位于欧洲中部的二元君主制联邦制国家，又称德意志第二帝国，是霍亨索伦王朝统治的最后一个国家。其正式国号为“德意志国（Deutsches Reich）。这也成为了后来魏玛共和国和纳粹德国的正式国号。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="埃德加·爱伦·坡（Edgar Allan Poe）（1809～1849），十九世纪美国诗人、小说家和文学评论家，美国浪漫主义思潮时期的重要成员。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1902年 - 慈禧太后第一次撤帘露面，公开召见各国驻华使节（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1903年 - 德国作曲家鲍里斯·布拉赫尔出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="叶赫那拉氏（1835年11月29日－1908年11月15日），一般根据其徽号简称为“慈禧”“慈禧太后” ，又有“西太后”“老佛爷” 等称呼。中国晚清时期重要政治人物。咸丰帝的妃嫔，同治帝的生母。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="鲍里斯·布拉赫（BorisBlaeher）1903年1月19日，出生在中国牛庄（今营口市），1924年师从弗里德里希·科赫学习作曲。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1915年 - 日本公使向袁世凯递交“二十一条”（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1929年 - 戊戌变法主要领导人梁启超逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="日本帝国主义妄图灭亡中国的秘密条款。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="梁启超，中国近代思想家、政治家、教育家、史学家、文学家。他被公认为是中国历史上一位百科全书式人物，而且是一位在退出政治舞台后仍能在学术研究上取得巨大成就的少有人物。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1936年 - 英国作家罗德亚德·吉普林逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1934年 - 伪满洲国在日本关东军的指使下恢复帝制（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="罗德亚德·吉普林（1865～1936） 英国小说家、诗人。1907年度的诺贝尔文学奖获得者。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="伪满洲国（1932年3月1日－1945年8月18日）是日本占领中国东北三省后，所扶植的一个傀儡伪政权。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1982年 - 中国民族学家黄现璠逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1939年 - 中国著名物理学家何育杰逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="黄现璠（1899～1982），中国现代历史学家、民族学家、人类学家和教育家，中国现代民族学奠基人之一。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="何育杰，中国早期物理学家、教育家。从任京师大学堂格致科教习开始，终生从事物理学教育事业。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1992年 - 邓小平南方视察，发表著名的“南方谈话”（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1949年 - 《铁流》作者绥拉菲莫维奇逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="邓小平南方谈话发生在1992年1月18日—2月21日。当时已正式告别中央领导岗位的党的第二代领导核心、改革开放的总设计师邓小平，以普通党员的身份，凭着对党和人民伟大事业的深切期待，先后赴武昌、深圳、珠海和上海视察，沿途发表了重要谈话。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="绥拉菲莫维奇，1863年1月7日生于顿河州下库尔莫雅尔斯克镇哥萨克军人家庭。1877年因起草反对沙皇的宣言被流放。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="2001年 - 果（金）第三任总统洛朗·德西雷·卡比拉逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1966年 - 英迪拉·甘地出任印度总理（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="洛朗·德西雷·卡比拉，又译朗·卡比拉（1939年11月27日—2001年1月18日）。 民主刚果第三任总统。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="英迪拉·普里雅达希尼·甘地（印地语：इन्दिरा प्रियदर्शिनी गाँधी；英语：Indira Priyadarshini Gandhi，1917年11月19日—1984年10月31日），原名英迪拉·普里雅达希尼·尼赫鲁，印度政治家，两届印度总理（1966年1月24日—1977年3月24日，1980年1月14日—1984年10月31日），也是印度迄今为止唯一一位女性总理。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="2005年 - 空中客车A380在法国隆重面世（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="2006年 - 贵州省前省长李立逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="空中客车A380（Airbus A380）是欧洲空中客车公司制造的全球最大的宽体客机。空中客车公司于1988年开始相关的研究工作，并于1990年宣布该项目以向波音747在远程航空客运市场的主导地位发起挑战。空中客车公司于1994年提出了A3XX项目；于2000年12月19日投入107亿美元来启动A380计划。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="1908年8月生，江西永新人。曾用名李国华。曾任全国人大常委会法制委员会委员。" />
     </StackPanel>
 </local:MyCard>
 
