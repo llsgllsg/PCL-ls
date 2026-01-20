@@ -9,69 +9,75 @@
      </StackPanel>
 </local:MyCard> 
 
-<local:MyCard Title="1259年 - 英格兰议会首次举行会议（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1793年 - 法国国王路易十六被处决（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="英格兰地区议会是英格兰不同行政层级的议会统称，包含大伦敦市议会、单一市议会、郡议会、区议会、市区议会、镇议会和地方议会等类型，承担相应行政职责并产生不同层级议员。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="路易十六制锁的技术很高，且极富创意。法国大革命爆发后，路易十六被迫组织立宪派拥立资产阶级掌握实权。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1320年 - 瓦迪斯瓦夫一世在克拉科夫加冕成为国王（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1870年 - 俄国杰出的哲学家、作家赫尔岑逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="波兰恢复王国地位后的第一位国王（1320年—1333年在位）。在此之前，他的封号是库亚维亚公爵（1275年—1305年）和波兰大公（瓦迪斯瓦夫四世，1296年起）。瓦迪斯瓦夫一世为库亚维亚公爵卡西米尔一世之子。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="赫尔岑（1812～1870）Herzen，Aleksandr 俄国哲学家，作家，革命家。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1745年 - 罗马帝国皇帝查理七世逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1892年 - 英国著名天文学家约翰·柯西·亚当斯逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="查理七世（Karl VII，全名卡尔·阿尔布雷希特，1697年8月6日-1745年1月20日），神圣罗马帝国皇帝（1742年-1745年在位），巴伐利亚选侯（1726年-1745年在位），生于布鲁塞尔，维特尔斯巴赫王朝仅有的两位皇帝之一，另一为路易四世。其父为巴伐利亚选侯马克西米利安二世，母亲为波兰公主特蕾莎·库内贡达·索别斯卡。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="英国天文学家，剑桥大学圣约翰学院毕业。曾任圣安德鲁斯大学、剑桥大学教授。英国皇家学会会员。精通数学、天体力学。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1775年 - 法国著名物理学家安德烈·玛丽·安培出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1905年 - Dior品牌创始人克里斯汀·迪奥出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="安德烈·玛丽·安培（André-Marie Ampère，1775年—1836年），法国物理学家、化学家、数学家，在电磁作用方面的研究成就卓著。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="克里斯汀·迪奥（Christian Dior，简称CD），一直是炫丽的高级女装的代名词。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1876年 - 波兰著名钢琴家约瑟夫·霍夫曼出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1911年 - 美国首次提出癌肿瘤是病毒所致（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="约瑟夫·霍夫曼，波兰著名钢琴家。另外同名人物还有设计师和足球运动员。他四岁开始演奏钢琴，立即展现了他的天赋才能。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="恶性肿瘤癌是来源于上皮组织的恶性肿瘤总称。癌多发生于皮肤、口腔等被覆鳞状上皮部位，肉瘤源于间叶组织，癌肉瘤兼具两者特征。病理学中癌特指上皮源性恶性肿瘤，日常“癌症”泛指所有恶性肿瘤。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1896年 - 贝克勒尔发现天然放射现象（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1924年 - 苏联政治家列宁逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="钋和镭的发现，给仔细考察放射性矿物的工作以巨大的推动力。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="列宁，原名弗拉基米尔·伊里奇·乌里扬诺夫，列宁是他的笔名。世界著名的革命家、政治家、思想家、理论家、实践家。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1936年 - 英国国王乔治五世逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1941年 - 西班牙男高音歌唱家普拉西多·多明戈出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="乔治五世（1865年6月3日—1936年1月20日），全名乔治·弗雷德里克·恩斯特·阿尔伯特（George Frederick Ernest Albert），大不列颠及爱尔兰联合王国国王及印度皇帝（1910年—1936年在位），爱德华七世和亚历山德拉王后的次子。温莎王朝的开创者。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="何塞·普拉西多·多明戈·恩比尔（西班牙语：José Plácido Domingo Embil），1941年出生，著名的西班牙男高音歌唱家。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1938年 - 川军将领刘湘逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1950年 - 英国作家乔治·奥威尔逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="刘湘（1888—1938），民国时期军阀。1925年起盘踞四川，手握军政大权，与蒋介石虚与委蛇，始终保持四川的半独立状态。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="乔治·奥威尔，英国记者、小说家、散文家和评论家。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1993年 - 美国第42任总统克林顿就职（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1951年 - 阿尔卑斯山发生巨大雪崩（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="威廉·杰斐逊·克林顿，美国律师、政治家，美国民主党成员，曾任阿肯色州州长和第42任美国总统。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="阿尔卑斯山脉（英语：Alps），欧洲西部最高大的山脉，其名称在拉丁语中意为“白色”，因山峰终年积雪，山谷冰川发育而得名。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1993年 - 英国著名演员奥黛丽·赫本因阑尾癌病逝，享年63岁（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1953年 - 微软创始人之一保罗·艾伦出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="奥黛丽·赫本（Audrey Hepburn），1929年5月4日出生于比利时布鲁塞尔，英国电影和舞台剧女演员。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="保罗·艾伦毕业于华盛顿州立大学。1968年，他与盖茨在湖滨中学相遇两人成了好朋友，1975年他们共同创立了“微软帝国“——微软公司的前身，艾伦拥有其40%的股份。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="2009年 - 美国首位非洲裔总统奥巴马正式宣誓就职（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1954年 - 核动力潜艇 “鹦鹉螺”号下水（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="贝拉克·奥巴马，第44任美国总统，为美国历史上第一位非洲裔总统。1991年，奥巴马以优等生荣誉从哈佛法学院毕业。2012年的第57届美国总统大选中，奥巴马击败对手成功连任。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="鹦鹉螺号核潜艇（英文：USS Nautilus，舷号：SSN-571），是美国海军隶下的一艘核潜艇，是世界上第一艘核潜艇，也是第一艘从水下穿越北极的潜艇。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="1960年 - 人类第一次将动物送入太空（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="太空（英语：Space），汉语字典解释是极高的天空。地球大气层以外的宇宙空间。位于瑞士日内瓦的国际航空联合会定义了大气层与太空的界线：以离地球海平面100千米（约62英里）的高度为分界线，称为卡门线。卡门线以美国科学家西奥多·冯·卡门的名字命名。" />
     </StackPanel>
 </local:MyCard>
 
