@@ -9,75 +9,99 @@
      </StackPanel>
 </local:MyCard> 
 
-<local:MyCard Title="1793年 - 法国国王路易十六被处决（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="754年 - 鉴真东渡到达日本（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="路易十六制锁的技术很高，且极富创意。法国大革命爆发后，路易十六被迫组织立宪派拥立资产阶级掌握实权。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="唐朝时，很多中国人为中日两国人民的交流作出了贡献。他们当中，最突出的是高僧鉴真。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1870年 - 俄国杰出的哲学家、作家赫尔岑逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1561年 - 英国文艺复兴时期散文家、哲学家弗朗西斯·培根出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="赫尔岑（1812～1870）Herzen，Aleksandr 俄国哲学家，作家，革命家。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="弗朗西斯·培根出生于一个官宦世家，是英国新贵族主义思想的代表人物之一。他以“知识就是力量”为行动口号，崇尚利用归纳总结的方法来解决问题，主张科学方法和科学技术应该相辅相成。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1892年 - 英国著名天文学家约翰·柯西·亚当斯逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1729年 - 剧作家戈特霍尔德·埃夫莱姆·莱辛出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="英国天文学家，剑桥大学圣约翰学院毕业。曾任圣安德鲁斯大学、剑桥大学教授。英国皇家学会会员。精通数学、天体力学。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="戈特霍尔德·埃夫莱姆·莱辛（Gotthold Ephraim Lessing，1729年1月22日—1781年2月15日），德国启蒙运动时期作家、文艺理论家。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1905年 - Dior品牌创始人克里斯汀·迪奥出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1788年 - 英国诗人、《唐璜》的作者乔治·戈登·拜伦出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="克里斯汀·迪奥（Christian Dior，简称CD），一直是炫丽的高级女装的代名词。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="乔治·戈登·拜伦（George Gordon Byron，1788—1824），是英国19世纪初期伟大的浪漫主义诗人。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1911年 - 美国首次提出癌肿瘤是病毒所致（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1865年 - 德国物理学家弗里德里希·帕邢出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="恶性肿瘤癌是来源于上皮组织的恶性肿瘤总称。癌多发生于皮肤、口腔等被覆鳞状上皮部位，肉瘤源于间叶组织，癌肉瘤兼具两者特征。病理学中癌特指上皮源性恶性肿瘤，日常“癌症”泛指所有恶性肿瘤。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="弗里德里希·帕邢（Friedrich Paschen，1865.1.22—1947.2.25），德国物理学家。帕邢在物理学方面的主要贡献是对光谱学进行了一系列实验研究，1908年发现了氢原子光谱的帕邢系。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1924年 - 苏联政治家列宁逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1901年 - 英国以及英国汉诺威王朝的最后一位君主维多利亚女王逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="列宁，原名弗拉基米尔·伊里奇·乌里扬诺夫，列宁是他的笔名。世界著名的革命家、政治家、思想家、理论家、实践家。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="维多利亚女王 Alexandrina Victoria （1819.5.24—1901.1.22) 是英国历史上在位时间最长的君主，在位时间长达64年。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1941年 - 西班牙男高音歌唱家普拉西多·多明戈出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1908年 - 物理学家列夫·达维多维奇·朗道出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="何塞·普拉西多·多明戈·恩比尔（西班牙语：José Plácido Domingo Embil），1941年出生，著名的西班牙男高音歌唱家。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="列夫·达维多维奇·朗道（俄文：Лев Дави́дович Ланда́у，英文：Lev Davidovich Landau，1908年1月22日—1968年4月1日），出生于俄罗斯帝国巴库，物理学家，苏联科学院院士，诺贝尔物理学奖获得者，生前是苏联科学院物理问题研究所理论部负责人。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1950年 - 英国作家乔治·奥威尔逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1919年 - 瑞典画家卡尔·拉森逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="乔治·奥威尔，英国记者、小说家、散文家和评论家。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="瑞典著名画家卡尔-拉森与雕塑家米列斯（C．MlLLES）、画家安·左思（A．ZORN), 是瑞典美术史上对世界贡献最大的三位艺术家。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1951年 - 阿尔卑斯山发生巨大雪崩（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1924年 - 拉姆齐·麦克唐纳就任英国首相（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="阿尔卑斯山脉（英语：Alps），欧洲西部最高大的山脉，其名称在拉丁语中意为“白色”，因山峰终年积雪，山谷冰川发育而得名。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="詹姆士·拉姆齐·麦克唐纳（英语：James Ramsay MacDonald，1866年10月12日—1937年11月9日），生于苏格兰马里郡洛西茅斯（Lossiemouth），英国政治家，工党出身，1924年1月至11月出任英国首相兼外务大臣，1929年6月至1935年6月第二度出任首相，惟任内于1931年8月与保守党和自由党合组国民政府，并另组国民工党，造成与工党关系决裂。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1953年 - 微软创始人之一保罗·艾伦出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1928年 - 朱德、陈毅领导湘南起义（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="保罗·艾伦毕业于华盛顿州立大学。1968年，他与盖茨在湖滨中学相遇两人成了好朋友，1975年他们共同创立了“微软帝国“——微软公司的前身，艾伦拥有其40%的股份。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="1928年1月12日下午4时许，宜章县城被一声响亮的枪声打破了沉寂。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1954年 - 核动力潜艇 “鹦鹉螺”号下水（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1942年 - 中国著名作家萧红在香港病逝（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="鹦鹉螺号核潜艇（英文：USS Nautilus，舷号：SSN-571），是美国海军隶下的一艘核潜艇，是世界上第一艘核潜艇，也是第一艘从水下穿越北极的潜艇。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="萧红，1911年生于黑龙江省哈尔滨市呼兰区。著名女作家。被誉为“30年代文学洛神”。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1960年 - 人类第一次将动物送入太空（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1944年 - 二战期间盟军在意大利安齐奥登陆（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="太空（英语：Space），汉语字典解释是极高的天空。地球大气层以外的宇宙空间。位于瑞士日内瓦的国际航空联合会定义了大气层与太空的界线：以离地球海平面100千米（约62英里）的高度为分界线，称为卡门线。卡门线以美国科学家西奥多·冯·卡门的名字命名。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="《血战安齐奥》是由爱德华·迪麦特雷克与杜里奥·科莱蒂联合执导的意大利、美国合拍战争历史片，1968年7月24日在美国首映，片长117分钟。影片由罗伯特·米彻姆、彼得·法尔克、罗伯特·瑞安等主演，以英语为对白语言，讲述了1944年盟军在意大利安齐奥战役中的真实历史事件。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="1963年 - 法国、联邦德国合作条约签订（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="1963年1月22日，法德双方在巴黎的爱丽舍宫签订了《法德合作条约》又称《爱丽舍宫条约》。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="1972年 - 英国、丹麦和挪威加入欧洲经济共同体（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="欧洲经济共同体（European Economic Community）是欧洲共同体最重要的组成部分，成立于1958年1月1日，总部设于布鲁塞尔。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="1973年 - 美国总统林登·贝恩斯·约翰逊去世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="林登·贝恩斯·约翰逊（LyndonBainesJohnson）是美国第36任总统。他于1908年8月27日生于德克萨斯州中部草原。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="2009年 - 中国著名武侠小说作家梁羽生逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="梁羽生（1924.3.22~2009.1.22），原名陈文统，中国著名武侠小说家，与金庸、古龙并称为中国武侠小说三大宗师，被誉为新派武侠小说的开山祖师。" />
     </StackPanel>
 </local:MyCard>
 
