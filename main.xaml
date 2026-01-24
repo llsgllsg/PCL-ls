@@ -9,75 +9,75 @@
      </StackPanel>
 </local:MyCard> 
 
-<local:MyCard Title="76年 - 罗马皇帝哈德良出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1504年 - 意大利艺术家米开朗基罗完成大卫雕像（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="普布利乌斯·埃利乌斯·哈德良(Publius Aelius Traianus Hadrianus，76年1月24日—138年7月10日，绰号勇帝），罗马帝国安敦尼王朝..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="《大卫》雕像创作于16世纪初，像高2.5米，高5.5米，用整块大理石雕刻而成，重量高达5.5吨。它是文艺复兴雕塑巨匠米开朗基罗的代表作，被视为西方美术史上最优秀的男性人体雕像之一。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="756年 - 中国唐朝名将封常清逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1627年 - 英国物理化学家罗伯特·波义耳出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="封常清(？—756.1.24)，蒲州猗氏人（今山西猗氏县南二十里），唐朝名将，战功赫赫。自幼家中清贫但受祖父影响喜爱读书。曾两次..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="罗伯特·波义耳（Robert Boyle，1627—1691），英国化学家，化学史家都把1661年作为近代化学的开始年代，因为这一年有一本对化学..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1712年 - 普鲁士国王腓特烈大帝出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1736年 - 意大利数学家、力学家拉格朗日出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="普鲁士国王，统帅。生于柏林。少年时就长于吹笛，1740年即位。实行开明君主制，在军事上颇有建树。曾两次发动西里西亚战争。175..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="约瑟夫·拉格朗日（Joseph-Louis Lagrange，1736~1813）全名为约瑟夫·路易斯·拉格朗日，法国著名数学家、物理学家。1736年1月25..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1791年 - 法国雕塑家法尔科内逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1759年 - 18世纪著名苏格兰诗人罗伯特·彭斯出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="法国雕塑家。美术院院士。1716年12月1日生于巴黎，1791年1 月24日卒于同地。1734～1744年间在雕塑家J.-Β.勒穆瓦纳的工作室学习..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="罗伯特·彭斯（Robert Burns，1759—1796）苏格兰农民诗人，在英国文学史上占有特殊重要的地位。他复活并丰富了苏格兰民歌；他的..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1828年 - 细菌学奠基人之一费迪南德·科恩出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1874年 - 英国小说家、戏剧家毛姆出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="费迪南德·科恩 , Ferdinand (Julius)Cohn（1828年1月24日- 1898年6月25日）德国博物学家和植物学家，以研究藻类、细菌和蕈类著..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="英国小说家、戏剧家。生于律师家庭。父母早死，由伯父接回英国抚养。原来学医，后转而致力写作。他的作品常以冷静、客观乃至挑..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1851年 - 意大利指挥家斯蓬蒂尼逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1886年 - 德国20世纪最伟大的指挥家富特文格勒出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="加斯帕罗·路易吉·帕西菲科·斯蓬蒂尼（Spontinl Gasparo Luigi Pacifico），1774年11月14日生于马约拉蒂，斯蓬蒂尼是19世纪10—2..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="威尔海姆·富特文格勒（Wilhelm Furtwängler，1886年1月25日—1954年11月30日），德国指挥家，作曲家。1886年1月25日，出生于柏..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1891年 - 德国陆军元帅奥托·莫里茨·瓦尔特·莫德尔出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1911年 - 中国第一部专门刑法典颁布（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="奥托·莫里茨·瓦尔特·莫德尔（Otto Moritz Walter Model，1891年1月24日－1945年4月21日），德国陆军元帅，因防御能力出色，被称..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="刑法是规定犯罪、刑事责任和刑罚的法律，是掌握政权的统治阶级为了维护本阶级政治上的统治和经济上的利益，根据自己的意志，规..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1924年 - 近代中国最著名的一所军事学校黄埔军校开始筹建（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1912年 - 袁世凯及各北洋军阀将领通电支持共和（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="黄埔军校，是近代中国最著名的一所军事学校，培养了许多在抗日战争和国共内战中闻名的指挥官。军校在1924年由中国国民党成立，目的是为国民革命训练军官。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="袁世凯（1859年—1916年），中国近代史上著名的政治家、军事家，北洋军阀领袖。字慰亭（又作慰廷），号容庵、洗心亭主人，汉族..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1930年 - 当代中国杰出经济学家吴敬琏出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1924年 - 第一届奥林匹克冬季运动会在夏蒙尼开幕（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="吴敬琏，男，江苏南京人，著名的经济学家，中国经济学界的泰斗。被誉为“中国经济学界良心”。其母亲邓季惺是著名的女报人，生..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="本世纪初期，冰雪运动就已在欧美一些国家得到广泛开展。1901年斯堪的纳维亚国家举行了北欧运动会，后来这项比赛形成了传统，直..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1958年 - 英美科学家完成核聚变试验（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1949年 - 日本帝国时期的政治家牧野伸显逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="核聚变（nuclear fusion），又称核融合、融合反应或聚变反应[1] 核是指由质量小的原子，主要是指氘或氚，在一定条件下（如..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="牧野伸显(まきの のぶあき，1861年11月24日（文久元年10月22日）-1949年（昭和24年）1月25日)日本帝国时期的政治家，大正、昭和..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1965年 - 英国前首相、政治家温斯顿·丘吉尔逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1979年 - 中国左翼文学运动开创者之一郑伯奇逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="温斯顿·伦纳德·斯宾塞·丘吉尔（1874年11月30日-1965年1月24日），英国历史学家、政治家、画家、演说家、作家、记者。他的《不需..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="郑伯奇(1895．6．11一1979．1．25)原名郑隆谨，字伯奇。陕西长安人。1910年参加同盟会和辛亥革命。1917年赴日本先后入东京第一..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="2011年 - 香港传奇商人罗兆辉逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1988年 - 中国著名昆虫学家、进化分类学家陈世骧逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="罗兆辉，1964年生人，香港有名的“地产神童”，曾拥有二十亿身家，与刘銮雄众富豪称兄道弟，跟周星驰诸巨星呼朋唤友，20多岁就..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="陈世骧，昆虫学家，浙江嘉兴人，1928年毕业于复旦大学，1934年获法国巴黎大学博士学位，中国科学院动物研究所研究员、名誉所长..." />
     </StackPanel>
 </local:MyCard>
 
