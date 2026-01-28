@@ -9,87 +9,93 @@
      </StackPanel>
 </local:MyCard> 
 
-<local:MyCard Title="419年 - 中国东晋的第十位皇帝司马德宗逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1737年 - 北美宣传鼓动家托马斯·潘恩出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="晋安帝司马德宗（382年―419年1月28日），字安德，晋孝武帝司马曜长子，晋恭帝司马德文同母兄。东晋的第十位皇帝，397年―419年..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="托马斯·潘恩（Thomas Paine）：英裔美国思想家、作家、政治活动家、理论家、革命家、激进民主主义者。生于英国诺福克郡，曾继承..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1115年 - 完颜阿骨打建立金朝（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1820年 - 英国国王乔治三世逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="金朝（1115－1234年）是中国历史上少数民族女真族建立的统治中国东北和华北地区的封建王朝。金太祖完颜阿骨打在统一女真诸部后..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="乔治三世（英语：George III，1738年6月4日－1820年1月29日），全名乔治·威廉·弗雷德里克（George William Frederick），1760年..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1457年 - 英格兰国王亨利七世出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1859年 - 哈佛大学天文台的首任台长威廉·邦德逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="亨利七世（英文：Henry VII）（1457年1月28日－1509年4月21日），名叫：亨利·都铎，是英格兰国王，都铎王朝（Tudor dynasty）的..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="威廉·邦德（William Cranch Bond，1789年9月9日－1859年1月29日），美国天文学家，哈佛大学天文台的首任台长。威廉·邦德1789年..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1547年 - 英格兰国王、都铎王朝的第二任君主亨利八世逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1860年 - 俄国戏剧家契诃夫出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="亨利八世（英文：Henry Ⅷ，1491年6月28日—1547年1月28日）是都铎王朝第二任君主（1509年4月22日－1547年1月28日在位），英格..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="契诃夫是俄国的世界级短篇小说巨匠、俄国19世纪末期最后一位批判现实主义艺术大师。他的作品以语言精练、准确见长，被认为19世纪末俄国现实主义文学的杰出代表。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1833年 - 英国军官查理·乔治·戈登出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1866年 - 法国剧作家罗曼·罗兰出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="查理·乔治·戈登，维多利亚时代的英国工兵上将。由于在殖民时代异常活跃，被称为中国的戈登和喀土穆的戈登。他是一位管理能手，在领导常胜军时表现出一定战术技巧。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="罗曼·罗兰，1866年生于法国克拉姆西。思想家，文学家，批判现实主义作家，音乐评论家，社会活动家。1915年诺贝尔文学奖得主。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1887年 - 波兰钢琴家阿图尔·鲁宾斯坦出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1886年 - 世界上第一辆汽车的专利权产生（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="阿图尔·鲁宾斯坦ArthurRubinstein（1887－1983） 美籍波兰钢琴家。1887年1月28日生于波兰罗兹，1982年12月20日卒于日内瓦。5岁..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="专利权（Patent Right），简称“专利”，是发明创造人或其权利受让人对特定的发明创造在一定期限内依法享有的独占实施权，是知..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1892年 - 苏联军事首长、苏联英雄秋列涅夫出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1899年 - 中国共产党的早期领导人瞿秋白出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="伊万·弗拉基米罗维奇·秋列涅夫(1892.1.28—1978.8.15)苏联军事首长，大将(1940)，苏联英雄(1978.2.21)。作为二战前苏联仅有的五..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="瞿秋白（Qu Qiubai，1899年1月29日－1935年6月18日），原名双（或霜、爽），号熊伯（或雄魄），政治家、散文作家、文学评论家。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1918年 - 利昂托洛茨基正式组建苏联红军（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1906年 - 丹麦国王克里斯蒂安九世逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="俄国与世界历史上最重要的无产阶级革命家之一，列宁最亲密的战友，二十世纪国际共产主义运动的左翼领袖，工农红军、第三国际和..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="克里斯蒂安九世（Christian Ⅸ，1818年4月8日－1906年1月29日），丹麦国王（1863年—1906年在位）。是克里斯蒂安三世国王的九世..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1932年 - 上海一·二八事变爆发（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1916年 - 德军首次动用飞艇袭击巴黎（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="九·一八事变后日本为了转移国际视线，并压迫南京国民政府屈服，日本侵略者于1932年初在上海不断寻衅挑起事端。1月28日晚，突然..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="飞艇是一种轻于空气的航空器，它与气球最大的区别在于具有推进和控制飞行状态的装置。飞艇由巨大的流线型艇体、位于艇体下面的..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1939年 - 爱尔兰诗人、剧作家威廉·巴特勒·叶芝逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1934年 - 德国化学家，第一个从空气中制造出氨的科学家弗里茨·哈伯逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="威廉·巴特勒·叶芝（William Butler Yeats,1865年6月13日~1939年1月28日），亦译“叶慈”、“耶茨”，爱尔兰诗人、剧作家和散文..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="弗里茨·哈伯，德国化学家，出生在德国西里西亚布雷斯劳（现为波兰的弗罗茨瓦夫）的一个犹太人家庭。1909年，成为第一个从空气中..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1940年 - 墨西哥电信大亨卡洛斯·斯利姆·埃卢出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1945年 - 美军在菲律宾巴丹半岛登陆（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="卡洛斯·斯利姆·埃卢（西班牙语：Carlos Slim Helú，阿拉伯语：كارلوس سليم حلو‎，1940年1月28日－），经常被称为..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="巴丹半岛战役发生于1945年1月31日至2月8日，是美军及菲律宾游击队从日本帝国手中解放菲律宾群岛中吕宋岛之巴丹半岛的战役，是解..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1956年 - 中国大陆通过《简化字总表》（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1953年 - 著名音乐艺术家邓丽君出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="简化字总表公布于1964年，是我国最终进行汉字简化后的总表，1986年10月，国家语委经国务院批准重新发布了《简化字总表》，并作..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="邓丽君，1953年1月29日生于中国台湾省云林县，祖籍河北省大名县，中国台湾歌唱家、日本昭和时代演歌代表人物之一。1967年推出首..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1986年 - 美国挑战者号航天飞机在执行第10次太空任务时意外爆炸（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1987年 - 朱经武等人宣布首次得到了90K以上的超导体（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="挑战者号在进行第10次太空任务时，因为右侧固态火箭推进器上面的一个O形环失效，导致一连串的连锁反应，并且在升空后72秒时，爆炸解体坠毁。机上7名宇航员全部丧生。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="超导是指导电材料在温度接近绝对零度的时候，物体分子热运动下材料的电阻趋近于0的性质；“超导体”是指能进行超导传输的导电材..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="2013年 - 中国物理学家许良英逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1996年 - 意大利威尼斯凤凰歌剧院在火灾中完全烧毁（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="许良英（1920(庚申年)～2013.01.28），男，浙江省临海市人。中国著名科学史家，《爱因斯坦文集》的主要编译者，中国科学院自然..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="意大利威尼斯的凤凰歌剧院以其悠久的历史和一流的水准成为200多年来欧洲的经典歌剧殿堂。然而，8年前的一场大火使这座被誉为世..." />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="2008年 - 玛丽·玛格丽特·杜鲁门·丹尼尔逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="玛丽·玛格丽特·杜鲁门·丹尼尔Mary Margaret Truman Daniel（1924年2月17日—2008年1月29日），美国著名侦探小说家和传记作家，..." />
     </StackPanel>
 </local:MyCard>
 
