@@ -9,88 +9,88 @@
      </StackPanel>
 </local:MyCard> 
 
-<local:MyCard Title="1595年 - 威廉·莎士比亚的《罗密欧与朱丽叶》首演（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1797年 - 奥地利著名音乐家，早期浪漫主义音乐的代表人物舒伯特出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="《罗密欧与朱丽叶》（Romeo and Juliet）是英国剧作家威廉·莎士比亚创作的戏剧，因其知名度而常被误称为威廉·莎士比亚的四大悲剧之一（实为《麦克白》《奥赛罗》《李尔王》及《哈姆雷特》）。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="舒伯特，奥地利作曲家，被认为是古典主义音乐的最后一位巨匠。在他18年的创作活动中，共完成了1100多部作品，其中著名的有《未完成交响曲》《死神与少女》四重奏等。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1882年 - 美国政治家罗斯福出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1870年 - 美国大都会艺术博物馆建立（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="富兰克林·罗斯福，美国第32任总统，美国历史上唯一蝉联四届的总统，迄今为止在任时间最长的总统。2005年，罗斯福被选为美国最伟大的人物中的第十位。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="大都会艺术博物馆，Metropolitan Museum of Art是美国最大的艺术博物馆，也是世界著名博物馆。位于美国纽约5号大道上的82号大街..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1900年 - 中国历史学家吕振羽出生于湖南省邵阳县金称市镇（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1900年 - 制定拳击规则的昆斯伯里逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="吕振羽，中国当代马克思主义史学家。湖南省邵阳县（今属邵阳）人。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="昆斯伯里，拳击规则的制定者。重要的拳击比赛都是按照他制定的规则进行的。昆斯伯里的拳击规则规定3分钟为1个回合的比赛时间，还规定打倒后10秒起不来就算失败的界限。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1915年 - 英国政治家约翰·普罗富莫出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1919年 - 美国职棒大联盟黑人球员罗宾森出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="约翰·普罗富莫（John Dennis Profumo，1915年1月30日－2006年3月9日），英国政治家，1960年出任陆军大臣并晋身内阁。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="美国职棒大联盟（MajorLeagueBaseball，简称MLB），是北美地区最高水平的职棒棒球联赛。1903年由国家联盟和美国联盟共同成立。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1932年 - 日本四大“经营之圣”之一稻盛和夫
-出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1929年 - 德国物理学家鲁道夫·穆斯堡尔出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="稻盛和夫1932年出生于日本鹿儿岛，鹿儿岛大学工学部毕业。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="鲁道夫·穆斯堡尔（Rudolf Ludwig Mössbauer，1929年1月31日—），德国物理学家，穆斯堡尔效应的发现者，1961年诺贝尔..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1941年 - 美国政治家迪克·切尼出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1933年 - 英国作家高尔斯·华绥逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="理查德·布鲁斯·切尼（Richard Bruce Cheney，1941年1月30日—2025年11月3日），别称迪克·切尼（Dick Cheney），出生于美国内布拉斯加州，毕业于怀俄明大学，美国共和党政治家、商人，曾任白宫办公厅主任、美国国防部长、美国副总统。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="约翰·高尔斯华绥（john Galsworthy，1867－1933）英国小说家、剧作家。出生于伦敦一个富裕的中产阶级家庭。父亲是伦敦的大律师，并经营好几家公司。高尔斯华绥毕业于牛津大学法律系，1890年取得律师资格。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1943年 - 英美空军袭击柏林（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1946年 - 南斯拉夫通过新宪法，确定联邦制（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="柏林大轰炸是指第二次世界大战期间，对德国首都柏林的363次空袭。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="南斯拉夫（英文：Yugoslavia），1929年-2003年建立于南欧巴尔干半岛上的国家。以从奥斯曼土耳其帝国独立的塞尔维亚族所建立的塞..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1946年 - 联合国大会在伦敦召开首次会议（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1949年 - 平津战役结束，北平和平解放（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="联合国大会（General Assembly of the United Nations），简称“联大”，成立于1945年10月24日，是由联合国全体193个会员国组成的主要审议、监督和审查机构。每年9月至12月在纽约总部举行常会，常会在每年9月的第三个星期二开幕，通常持续到12月中下旬，分为一般性辩论阶段和议题审议阶段，重要决议需获三分之二多数通过，决议虽无法律约束力但具有道义影响力。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="平津战役（中国大陆称作平津战役[1] ，台湾称作平津会战）是国共内战“三大战役[2] ”之一，1948年11月29日开始，194..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1948年 - 飞机的发明人奥维尔·莱特去世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1958年 - 美国发射第一颗人造地球卫星探险者一号（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="奥威尔莱特（公元1871～公元1948）。 奥维尔·莱特1871年生于美国俄亥俄州代顿市。上过中学，但实际上未获得毕业文凭。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="探险者一号是美国于1958年1月31日在佛罗里达州卡拉维纳尔角发射的第一颗地球人造卫星，晚于前苏联于1957年10月4日发射的世界第..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1948年 - 印度国父、“圣雄”甘地遇刺身亡（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1961年 - 中国近现代林业事业的奠基人韩安逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="莫罕达斯·卡拉姆昌德·甘地（印地语：मोहनदास करमचंद गांधी，英语：Mohandas Karamchand Gandhi；1869年10月2日—1948年1月30日），印度民族解放运动的主要领导人之一，印度国民大会党领袖。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="韩安（1883－1961），字竹坪，安徽省巢县人。生于1883年1月17日，卒于1961年1月31日，享年78岁。林学家，中国近现代林业事业的..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1963年 - 法国钢琴家弗朗西·普朗克逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1965年 - 中国现代金石学家王襄
+逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="弗朗西·普朗克（Francis Poulenc，1899年1月7日—1963年1月30日），法国钢琴家、作曲家，六人团成员之一。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="王襄(1876.12.31--1965.1.31)，祖籍浙江绍兴，世居天津。中国现代金石学家、甲骨学家。长期从事金石学、甲骨学研究，为中国的金..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1966年 - 中国紫金山天文台发现一颗“安徽”小行星（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1971年 - 韩国女明星李英爱出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="小行星2162，又称为安徽星，是由紫金山天文台在1966年1月30日发现的主带小行星。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="李英爱（Lee Young Ae）1971年1月31日出生在首尔，韩国女演员，有“氧气美女”的称号。[1-2]   1993年参与演艺..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1969年 - 中国国民党“桂系”领袖李宗仁逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1976年 - 中国文艺理论家冯雪峰逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="李宗仁（1891年8月13日—1969年1月30日），字德邻。广西桂林临桂区人。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="冯雪峰(1903.6.2 - 1976.1.31)，原名福春，笔名雪峰、画室、洛阳等，浙江义乌人赤岸乡神坛村人。现代著名诗人、文艺理论家。192..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1983年 - 中国物理学家王竹溪逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1997年 - 欧洲投资银行首次发行欧元债券（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="王竹溪，物理学家、教育家。我国热力学统计物理研究的开拓者。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="欧元区发行统一债券的时机尚未成熟。发行欧元债券需统一的经济与财政政策体系，需各国在预算和经济问题上密切合作。欧元区自成立至今…..." />
     </StackPanel>
 </local:MyCard>
 
