@@ -9,87 +9,87 @@
      </StackPanel>
 </local:MyCard> 
 
-<local:MyCard Title="1181年 - 日本第80代天皇高仓天皇逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="199年 - 三国时期名将吕布逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="高仓天皇（1161年9月23日－1181年2月6日，应保元年九月三日－治承五年一月十四日），日本天第80代皇（1168年3月30日－1180年3月..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="吕布（？－199年2月7日），字奉先，汉族，东汉末年名将，汉末群雄之一，五原郡九原县人（今内蒙古包头九原区）。先后..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1665年 - 英国安妮女王出生（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1478年 - 《乌托邦》作者托马斯·莫尔出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="安妮女王（Anne of Great Britain 又译为安女王，1665年2月6日—1714年8月1日），大不列颠王国女王。斯图亚特王朝末代国王。（..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="托马斯·莫尔（Sir Thomas More），人名。主要有英国的空想社会主义者托马斯·莫尔和古爱尔兰著名的诗人兼作曲家托马斯·莫尔等同..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1685年 - 苏格兰及英格兰国王查理二世逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1799年 - 清朝乾隆皇帝爱新觉罗·弘历驾崩（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="查理二世（Charles II，1630年5月29日—1685年2月6日），斯图亚特王朝的苏格兰及英格兰国王。查理二世是查理一世与亨莉雅妲·玛..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="爱新觉罗·弘历 （1711年－1799年），清朝第六位皇帝，也是清朝入关之后的第四位皇帝。年号乾隆，寓意“天道昌隆”。25岁登基，..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1802年 - 英国物理学家查尔斯·惠斯通出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1807年 - 埃劳战役爆发（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="查尔斯·惠斯通（Charle Wheatstone 1802－1875年）是19世纪英国著名的物理学家，他一生在多个方面为科学技术的发展做出了贡献。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="埃劳战役，是拿破仑一世和第四次反法同盟之间的一次重要战役，1807年2月发生于东普鲁士境内。1806年10月，拿破仑率法军在耶拿战..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1840年 - 新西兰成为英国殖民地（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1812年 - 英国小说家查尔斯·狄更斯出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="新西兰（New Zealand），又译纽西兰，是一个高度发达的资本主义国家，政治体制实行君主立宪制混合英国式议会民主制，现为英联邦..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="查尔斯·约翰·赫芬姆·狄更斯，1812年2月7日生于朴次茅斯市郊，1870年6月9日卒于罗切斯特附近的盖茨山庄。19世纪英国批判现实主义..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1903年 - 世界著名钢琴家克劳迪奥·阿劳出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1834年 - 俄国化学家德米特里·门捷列夫出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="克劳迪奥·阿劳（Claudio Arrau，1903-1991），智利钢琴家。二十世纪最伟大的钢琴家之一。自幼有神童之称，曾到柏林求学，后定居..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="由门捷列夫发现的元素周期表是化学发展史上重要的里程碑之一，他的名著《化学原理》，在十九世纪后期和二十世纪初，被国际化学界公认为标准著作，影响了一代代的化学家。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1908年 - 中国政治家薄一波出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1885年 - 美国作家辛克莱·刘易斯出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="薄一波（1908—2007），原名薄书存，山西定襄县蒋村人。1925年入党，曾在山西，天津等地从事兵运等工作，3次入狱。1946年起，担..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="辛克莱·刘易斯（1885～1951）美国作家。1914年，他的第一部长篇小说《我们的雷恩先生》问世。主要作品有《大街》、《巴比特》、..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1909年 - 中国的封建社会等级制度的象征之一奴婢制度宣告终结（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1906年 - 清朝末代皇帝爱新觉罗·溥仪出生于风雨飘摇的大清帝国（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="唐代社会阶层被划分为“良人”与“贱人”。奴婢是地位最低的“贱民”。唐代奴婢按照隶属关系可分为官属奴婢和私属奴婢。奴婢的..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="爱新觉罗·溥仪(1906年02月07日~1967年10月17日)：字耀之，号浩然。清朝末代皇帝，中国最后一个皇帝。世称清废帝或宣统帝，1909..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1911年 - 美国第40任总统罗纳德·里根出生于美国伊利诺伊州坦皮科城（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1923年 - 吴佩孚制造二七惨案（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="里根是第40任美国总统，在踏入政坛前，他担任过救生员、电影演员、和励志讲师等工作，他的演说风格高明而极具说服力，被媒体誉为“伟大的沟通者”。他也是历任总统中唯一一位演员出身的总统。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="二七惨案指1923年2月7日北洋政府直系军阀吴佩孚镇压京汉铁路工人大罢工的流血事件。“二七”大罢工是在中国人民反抗帝国主义和..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1928年 - 周文雍与陈铁军在广州就义，史称“刑场上的婚礼”（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1974年 - 中国地理学家竺可桢逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="周文雍（1905-1928）男，汉族，广东省开平县人，中共党员。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="竺可桢(1890.3.7--1974.2.7)，又名绍荣，字藕舫，浙江省绍兴县东关镇人（今属浙江省绍兴市上虞区东关街道）。1909年考入唐山路..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1952年 - 英国国王乔治六世逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1986年 - 海地总统让·克劳德·杜瓦利埃携家眷出逃（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="乔治六世（King George VI，1895年12月14日~1952年2月6日），全名艾伯特·弗雷德里克·亚瑟·乔治·温莎（Albert Frederick Arthur..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="让-克洛德·杜瓦利埃（Jean-Claude Duvalier），1951年出生于海地首都太子港，就读于太子港圣路易德贡萨格学院和海地大学法学院..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1958年 - 慕尼黑空难发生，8名曼联队球员丧生（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1991年 - 英国首相官邸唐宁街10号遭爱尔兰共和军炮击（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="慕尼黑空难发生于1958年2月6日，载着英格兰足球联赛球队曼彻斯特联队（简称“曼联”）职球员、球迷及随队记者的英国欧洲航空公..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="爱尔兰共和军(Irish Republican Army)，反对英国政府的武装组织，长时间通过暴力活动实现政治诉求，故被许多国家视为恐怖组织。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1983年 - 台湾著名艺术家李梅树逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1998年 - 第18届冬奥会时隔二十六年后再一次在日本开幕（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="李梅树（1902-1983）先生，台北县三峡镇人，幼时受父亲长兄薰陶，对音乐美术产生浓厚的兴趣。.baseInfoWrap{display:inline-blo..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="1998年日本长野第十八届冬季奥运会是冬季奥运会在时隔26年后再一次来到日本。本届奥运会上，单板滑雪第一次成为奥运会的比赛项..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="2008年 - 美国南部遭龙卷风袭击，58人死亡（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1999年 - 约旦国王侯赛因·宾·塔拉勒逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="水蒸气上升到天空遇冷成了云。云团温度低，对周围水蒸气冷却，水蒸气体积缩小，周围空气水蒸气补充空间，云团下面上升的水蒸气..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="侯赛因·宾·塔拉勒( )又称侯赛因一世，为约旦国王，在位期间自1952年到1999年。.baseInfoWrap{display:inline-block;width:790px..." />
     </StackPanel>
 </local:MyCard>
 
