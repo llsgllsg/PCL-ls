@@ -9,87 +9,87 @@
      </StackPanel>
 </local:MyCard> 
 
-<local:MyCard Title="199年 - 三国时期名将吕布逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1265年 - 伊利汗国的建立者旭烈兀逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="吕布（？－199年2月7日），字奉先，汉族，东汉末年名将，汉末群雄之一，五原郡九原县人（今内蒙古包头九原区）。先后..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="旭烈兀（Hulagu或者Hulegu，1217年—1265年2月8日），蒙古族人，成吉思汗之孙、拖雷之子、忽必烈、蒙哥和阿里不哥的兄弟，四人..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1478年 - 《乌托邦》作者托马斯·莫尔出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1819年 - 英国作家与艺术评论家约翰·拉斯金出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="托马斯·莫尔（Sir Thomas More），人名。主要有英国的空想社会主义者托马斯·莫尔和古爱尔兰著名的诗人兼作曲家托马斯·莫尔等同..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="约翰·拉斯金（John Ruskin又译作约翰·罗斯金，1819～1900），拉斯金兴趣爱好广泛，他不仅是英国作家、艺术家、艺术评论家，还是..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1799年 - 清朝乾隆皇帝爱新觉罗·弘历驾崩（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1828年 - 法国科幻小说先驱儒勒·凡尔纳出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="爱新觉罗·弘历 （1711年－1799年），清朝第六位皇帝，也是清朝入关之后的第四位皇帝。年号乾隆，寓意“天道昌隆”。25岁登基，..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="儒勒·凡尔纳（1828.2.8～1905.3.24），是19世纪法国著名小说家、剧作家及诗人。凡尔纳出生于法国港口城市南特的一个中产阶级家..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1807年 - 埃劳战役爆发（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1902年 - 内蒙古王公德王出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="埃劳战役，是拿破仑一世和第四次反法同盟之间的一次重要战役，1807年2月发生于东普鲁士境内。1806年10月，拿破仑率法军在耶拿战..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="德穆楚克栋鲁普亲王（1902—1966）即德王，字希贤。内蒙古的王公，主张内蒙古独立。察哈尔地区锡林郭勒盟苏尼特右旗人，苏尼特..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1812年 - 英国小说家查尔斯·狄更斯出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1904年 - 日俄战争爆发（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="查尔斯·约翰·赫芬姆·狄更斯，1812年2月7日生于朴次茅斯市郊，1870年6月9日卒于罗切斯特附近的盖茨山庄。19世纪英国批判现实主义..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="日俄战争是指日本与俄罗斯帝国为了侵占中国东北和朝鲜半岛，在中国东北的土地上进行的一场战争。以沙皇俄国的失败而告终。日俄..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1834年 - 俄国化学家德米特里·门捷列夫出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1918年 - 赫里克发表第一张记录心脏功能的心电图（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="由门捷列夫发现的元素周期表是化学发展史上重要的里程碑之一，他的名著《化学原理》，在十九世纪后期和二十世纪初，被国际化学界公认为标准著作，影响了一代代的化学家。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="心电图（Electrocardiogram，ECG或者EKG）是利用心电图机从体表记录心脏每一心动周期所产生的电活动变化图形的技术。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1885年 - 美国作家辛克莱·刘易斯出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1921年 - 无政府主义者彼得·克鲁泡特金逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="辛克莱·刘易斯（1885～1951）美国作家。1914年，他的第一部长篇小说《我们的雷恩先生》问世。主要作品有《大街》、《巴比特》、..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="俄国地理学家、无政府主义运动的最高精神领袖和理论家。其父为世袭亲王。本人在西伯利亚任军官时，业余从事地理考察和动物研究..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1906年 - 清朝末代皇帝爱新觉罗·溥仪出生于风雨飘摇的大清帝国（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1926年 - 美国考古探察队在墨西哥发现玛雅金字塔（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="爱新觉罗·溥仪(1906年02月07日~1967年10月17日)：字耀之，号浩然。清朝末代皇帝，中国最后一个皇帝。世称清废帝或宣统帝，1909..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="玛雅金字塔是玛雅文明的象征，堪与埃及金字塔媲美。但玛雅金字塔和埃及金字塔不同，主要用于举行宗教仪式，仅有极少玛雅金字塔具有陵墓的功能，外型上是平顶，塔顶的台上建有庙宇。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1923年 - 吴佩孚制造二七惨案（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1932年 - 好莱坞电影配乐大师约翰·威廉姆斯出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="二七惨案指1923年2月7日北洋政府直系军阀吴佩孚镇压京汉铁路工人大罢工的流血事件。“二七”大罢工是在中国人民反抗帝国主义和..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="约翰·威廉姆斯，出生于1932年2月8日，音乐家，电影配乐大师。有史以来最成功的电影作曲家，曾获得49次奥斯卡提名，其中五次获奖..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1974年 - 中国地理学家竺可桢逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1947年 - 中国当代作家、学者、教育家易中天出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="竺可桢(1890.3.7--1974.2.7)，又名绍荣，字藕舫，浙江省绍兴县东关镇人（今属浙江省绍兴市上虞区东关街道）。1909年考入唐山路..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="易中天，中国知名作家、教育家，厦门大学教授，第八届中国作家富豪榜致敬作家。1947年生，湖南长沙人。1981年毕业于武汉大学，..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1986年 - 海地总统让·克劳德·杜瓦利埃携家眷出逃（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1957年 - 匈牙利裔美国数学家约翰·冯·诺依曼逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="让-克洛德·杜瓦利埃（Jean-Claude Duvalier），1951年出生于海地首都太子港，就读于太子港圣路易德贡萨格学院和海地大学法学院..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="冯·诺依曼（John von Neumann，1903~1957），20世纪最重要的数学家之一，在现代计算机、博弈论和核武器等诸多领域内有杰出建树..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1991年 - 英国首相官邸唐宁街10号遭爱尔兰共和军炮击（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1982年 - 北京国际马拉松赛被纳入正式的国际马拉松比赛（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="爱尔兰共和军(Irish Republican Army)，反对英国政府的武装组织，长时间通过暴力活动实现政治诉求，故被许多国家视为恐怖组织。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="北京国际马拉松赛由中国田径协会主办的北京国际马拉松赛，是经国家体育总局和北京市政府批准，并在国际田联和国际马拉松及公路..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1998年 - 第18届冬奥会时隔二十六年后再一次在日本开幕（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="2001年 - 民国四大家族成员陈立夫逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="1998年日本长野第十八届冬季奥运会是冬季奥运会在时隔26年后再一次来到日本。本届奥运会上，单板滑雪第一次成为奥运会的比赛项..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="陈立夫（1900年—2001年），浙江省吴兴人，名祖燕，字立夫。父陈其业，字勤士，兄陈祖焘，字果夫。另外曾化名李融清、辜君明。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1999年 - 约旦国王侯赛因·宾·塔拉勒逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="2002年 - 新加坡首任民选总统王鼎昌逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="侯赛因·宾·塔拉勒( )又称侯赛因一世，为约旦国王，在位期间自1952年到1999年。.baseInfoWrap{display:inline-block;width:790px..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="王鼎昌(Ong Teng Cheong，1936年1月22日—2002年2月8日)，是新加坡首任民选总统，第五任总统。  1999年 - 王鼎昌因健康原因放弃..." />
     </StackPanel>
 </local:MyCard>
 
