@@ -9,87 +9,75 @@
      </StackPanel>
 </local:MyCard> 
 
-<local:MyCard Title="1265年 - 伊利汗国的建立者旭烈兀逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="-140年 - 汉朝名将霍去病出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="旭烈兀（Hulagu或者Hulegu，1217年—1265年2月8日），蒙古族人，成吉思汗之孙、拖雷之子、忽必烈、蒙哥和阿里不哥的兄弟，四人..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="霍去病（前140年—前117年），汉族，河东平阳（今山西临汾西南）人，西汉名将、军事家，官至大司马，封冠军侯。霍去病是名将卫..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1819年 - 英国作家与艺术评论家约翰·拉斯金出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1135年 - 金朝第二位皇帝完颜晟逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="约翰·拉斯金（John Ruskin又译作约翰·罗斯金，1819～1900），拉斯金兴趣爱好广泛，他不仅是英国作家、艺术家、艺术评论家，还是..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="太宗完颜晟，女真名完颜吴乞买，金太祖完颜阿骨打的四弟，金第二代皇帝，1123年即位。天会三年（1125年）十月，令谙班勃极烈、..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1828年 - 法国科幻小说先驱儒勒·凡尔纳出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1199年 - 日本第一位幕府将军源赖朝逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="儒勒·凡尔纳（1828.2.8～1905.3.24），是19世纪法国著名小说家、剧作家及诗人。凡尔纳出生于法国港口城市南特的一个中产阶级家..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="源赖朝（みなもと の よりとも）（1147年5月9日－1199年2月9日），日本镰仓幕府首任征夷大将军，也是日本幕府制度的建立者。他..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1902年 - 内蒙古王公德王出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1234年 - 蔡州沦陷，金朝灭亡（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="德穆楚克栋鲁普亲王（1902—1966）即德王，字希贤。内蒙古的王公，主张内蒙古独立。察哈尔地区锡林郭勒盟苏尼特右旗人，苏尼特..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="金朝（1115－1234年）是中国历史上少数民族女真族建立的统治中国东北和华北地区的封建王朝。金太祖完颜阿骨打在统一女真诸部后..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1904年 - 日俄战争爆发（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1234年 - 金朝第九位皇帝完颜守绪逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="日俄战争是指日本与俄罗斯帝国为了侵占中国东北和朝鲜半岛，在中国东北的土地上进行的一场战争。以沙皇俄国的失败而告终。日俄..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="金哀宗完颜守绪（1198年-1234年2月9日），金国第九位皇帝（1224年-1234年在位），原名守礼，女真名宁甲速，金宣宗第三子，母..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1918年 - 赫里克发表第一张记录心脏功能的心电图（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1773年 - 美国第九任总统威廉·亨利·哈里森出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="心电图（Electrocardiogram，ECG或者EKG）是利用心电图机从体表记录心脏每一心动周期所产生的电活动变化图形的技术。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="威廉·亨利·哈里森出身于弗吉尼亚种植者贵族家庭。他生于1773年(癸巳年)伯克利。是美国第九任总统（1841年3月4日--1841年4月4日..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1921年 - 无政府主义者彼得·克鲁泡特金逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1825年 - 约翰·昆西·亚当斯当选为美国总统（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="俄国地理学家、无政府主义运动的最高精神领袖和理论家。其父为世袭亲王。本人在西伯利亚任军官时，业余从事地理考察和动物研究..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="约翰·昆西·亚当斯（John Quincy  Adams，1767年7月11日－1848年2月23日）是美国第六任总统（1825年－1829年）。他是第二任总统..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1926年 - 美国考古探察队在墨西哥发现玛雅金字塔（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1846年 - 德国汽车工程师威廉·迈巴赫出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="玛雅金字塔是玛雅文明的象征，堪与埃及金字塔媲美。但玛雅金字塔和埃及金字塔不同，主要用于举行宗教仪式，仅有极少玛雅金字塔具有陵墓的功能，外型上是平顶，塔顶的台上建有庙宇。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="威廉·迈巴赫一生最大的传奇在于创造了两个举世闻名的豪华品牌：梅赛德斯与迈巴赫，分别在豪华车的不同领域演绎着各自的辉煌。他..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1932年 - 好莱坞电影配乐大师约翰·威廉姆斯出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1863年 - 红十字国际委员会在瑞士的日内瓦成立（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="约翰·威廉姆斯，出生于1932年2月8日，音乐家，电影配乐大师。有史以来最成功的电影作曲家，曾获得49次奥斯卡提名，其中五次获奖..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="红十字国际委员会是一个独立、中立的组织，总部设在日内瓦，在全球80多个国家约有1.3万名员工，资金主要源于各国政府和国家红十字会、红新月会的自愿捐赠。曾三次获诺贝尔和平奖。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1947年 - 中国当代作家、学者、教育家易中天出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1881年 - 俄国作家陀思妥耶夫斯基逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="易中天，中国知名作家、教育家，厦门大学教授，第八届中国作家富豪榜致敬作家。1947年生，湖南长沙人。1981年毕业于武汉大学，..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="费奥多尔·米哈伊洛维奇·陀思妥耶夫斯基是19世纪群星灿烂的俄国文坛上一颗耀眼的明星，与列夫·托尔斯泰、屠格涅夫等人齐名，是俄..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1957年 - 匈牙利裔美国数学家约翰·冯·诺依曼逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1979年 - 国际影星章子怡出生（类型：birth）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="冯·诺依曼（John von Neumann，1903~1957），20世纪最重要的数学家之一，在现代计算机、博弈论和核武器等诸多领域内有杰出建树..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="章子怡（Zhang Ziyi），1979年2月9日出生于北京，电影演员，2000年毕业于中央戏剧学院。1998年被张艺谋发掘，主演电影《我的父..." />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="1982年 - 北京国际马拉松赛被纳入正式的国际马拉松比赛（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="1993年 - 荷兰法律允许医生对病人实施安乐死（类型：event）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="北京国际马拉松赛由中国田径协会主办的北京国际马拉松赛，是经国家体育总局和北京市政府批准，并在国际田联和国际马拉松及公路..." />
-    </StackPanel>
-</local:MyCard>
-
-<local:MyCard Title="2001年 - 民国四大家族成员陈立夫逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
-    <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="陈立夫（1900年—2001年），浙江省吴兴人，名祖燕，字立夫。父陈其业，字勤士，兄陈祖焘，字果夫。另外曾化名李融清、辜君明。" />
-    </StackPanel>
-</local:MyCard>
-
-<local:MyCard Title="2002年 - 新加坡首任民选总统王鼎昌逝世（类型：death）" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
-    <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="王鼎昌(Ong Teng Cheong，1936年1月22日—2002年2月8日)，是新加坡首任民选总统，第五任总统。  1999年 - 王鼎昌因健康原因放弃..." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="安乐死（Euthanasia）指对无法救治的病人停止治疗或使用药物，让病人无痛苦地死去。 “安乐死”一词源于希腊文，意思是"幸..." />
     </StackPanel>
 </local:MyCard>
 
